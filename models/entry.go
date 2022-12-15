@@ -8,6 +8,6 @@ type Entry struct{
 	Fat 				*float64 					`json:"fat"`
 	Protein			*float64 					`json:"protein"`
 	Carb				*float64 					`json:"carb"`
-	Ingredients	*string 					`json:"ingredient"`
+	Ingredients	*string 					`json:"ingredients"`
 	Calories		*string 					`json:"calories"`
 }
